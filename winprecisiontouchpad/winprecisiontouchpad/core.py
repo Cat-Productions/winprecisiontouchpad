@@ -17,9 +17,6 @@ _cb = CALLBACK(_internal_callback)
 dll.start_touchpad.argtypes = [CALLBACK]
 dll.start_touchpad.restype = None
 
-XLimit = 4024
-YLimit = 2344
-
 def connect(fn):
     _listeners.append(fn)
 
