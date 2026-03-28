@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "winprecisiontouchpad"
+version = "0.1.0"
+description = "Low-level Precision Touchpad input for Windows"
+readme = "README.md"
+requires-python = ">=3.8"
+license = "MIT"
+
+authors = [
+  {name = "macsipac"}
+]
+
+[tool.setuptools]
+packages = ["winprecisiontouchpad"]
+include-package-data = true
